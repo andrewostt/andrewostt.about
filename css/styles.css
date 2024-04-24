@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "JetBrainsMono-Regular";
+    src: url("../fonts/JetBrainsMono-Regular.ttf");
+}
+html {
+    background-color: #2e3138;
+}
+.texts {
+    font-family: "JetBrainsMono-Regular", sans-serif;
+    color: #ECDCC9;
+    text-align: center;
+}
+img {
+    width: 300px;
+    height: 300px;
+}
+img {
+    position: relative;
+}
+.flex {
+    width: 720px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex div {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.flex div p {
+    text-align: left;
+    margin-left: 30px;
+}
+.logos {
+    width: 30px;
+    height: 30px;
+    margin: 0 4px;
+}
+
+#discord {
+    width: 40px;
+}
+
